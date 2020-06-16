@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="13" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="619903" started-at="2020-06-16T11:19:04Z" finished-at="2020-06-16T11:29:24Z">
+    <groups>
+    </groups>
+    <test name="chrome" duration-ms="568689" started-at="2020-06-16T11:19:04Z" finished-at="2020-06-16T11:28:33Z">
+      <class name="com.Bookshelf.testdata.TestValidData">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="setup" is-config="true" duration-ms="102877" started-at="2020-06-16T11:19:04Z" finished-at="2020-06-16T11:20:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="77139" started-at="2020-06-16T11:20:54Z" data-provider="details" finished-at="2020-06-16T11:22:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7812549501]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="12" started-at="2020-06-16T11:22:12Z" finished-at="2020-06-16T11:22:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="103629" started-at="2020-06-16T11:22:12Z" data-provider="details" finished-at="2020-06-16T11:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelves]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7812549502]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-16T11:23:55Z" finished-at="2020-06-16T11:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="14448" started-at="2020-06-16T11:23:55Z" data-provider="details" finished-at="2020-06-16T11:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7812549503]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-16T11:24:10Z" finished-at="2020-06-16T11:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="17907" started-at="2020-06-16T11:24:10Z" data-provider="details" finished-at="2020-06-16T11:24:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[14999]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7812549504]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="10568" started-at="2020-06-16T11:24:28Z" data-provider="details" finished-at="2020-06-16T11:24:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open and Closed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7812549505]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-16T11:24:28Z" finished-at="2020-06-16T11:24:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="10664" started-at="2020-06-16T11:24:38Z" data-provider="details" finished-at="2020-06-16T11:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open Storage]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7812549506]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-16T11:24:38Z" finished-at="2020-06-16T11:24:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-16T11:24:49Z" finished-at="2020-06-16T11:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="9951" started-at="2020-06-16T11:24:49Z" data-provider="details" finished-at="2020-06-16T11:24:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Closed Storage]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7812549507]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-16T11:24:59Z" finished-at="2020-06-16T11:24:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="12284" started-at="2020-06-16T11:24:59Z" data-provider="details" finished-at="2020-06-16T11:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Closed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7812549508]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-16T11:25:11Z" finished-at="2020-06-16T11:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="51998" started-at="2020-06-16T11:25:11Z" data-provider="details" finished-at="2020-06-16T11:26:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7812549509]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="83327" started-at="2020-06-16T11:26:03Z" data-provider="details" finished-at="2020-06-16T11:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7812549510]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-16T11:26:03Z" finished-at="2020-06-16T11:26:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-16T11:27:26Z" finished-at="2020-06-16T11:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="52821" started-at="2020-06-16T11:27:26Z" data-provider="details" finished-at="2020-06-16T11:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[78125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="4" started-at="2020-06-16T11:28:19Z" finished-at="2020-06-16T11:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="testwebpage" duration-ms="10677" started-at="2020-06-16T11:28:19Z" data-provider="details" finished-at="2020-06-16T11:28:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Study Chair]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Janaki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janakiraman@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sruthi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruthijayachandran@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7812549512]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-16T11:28:30Z" finished-at="2020-06-16T11:28:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwebpage status=SUCCESS method=TestValidData.testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Bookshelf.testdata.TestValidData@13c78c0b]" name="closeBrowser" is-config="true" duration-ms="3004" started-at="2020-06-16T11:28:30Z" finished-at="2020-06-16T11:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Bookshelf.testdata.TestValidData -->
+    </test> <!-- chrome -->
+    <test name="firefox" duration-ms="50995" started-at="2020-06-16T11:28:33Z" finished-at="2020-06-16T11:29:24Z">
+      <class name="com.Bookshelf.testdata.TestValidData">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Bookshelf.testdata.TestValidData@48eff760]" name="setUp" is-config="true" duration-ms="1647" started-at="2020-06-16T11:19:03Z" finished-at="2020-06-16T11:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@48eff760]" name="setup" is-config="true" duration-ms="47909" started-at="2020-06-16T11:28:33Z" finished-at="2020-06-16T11:29:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="testwebpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookshelf.testdata.TestValidData@48eff760]" name="testwebpage" duration-ms="0" started-at="2020-06-16T11:29:21Z" data-provider="details" finished-at="2020-06-16T11:29:21Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.NullPointerException
+at com.Bookshelf.utils.ExcelUtils_Bookshelf_name_and_price.readExcelData(ExcelUtils_Bookshelf_name_and_price.java:31)
+at com.Bookshelf.testdata.TestValidData.getExcelData(TestValidData.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwebpage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Bookshelf.testdata.TestValidData@48eff760]" name="closeBrowser" is-config="true" duration-ms="3002" started-at="2020-06-16T11:29:21Z" finished-at="2020-06-16T11:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Bookshelf.testdata.TestValidData@48eff760]" name="tearDown" is-config="true" duration-ms="1672" started-at="2020-06-16T11:29:24Z" finished-at="2020-06-16T11:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Bookshelf.testdata.TestValidData -->
+    </test> <!-- firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
